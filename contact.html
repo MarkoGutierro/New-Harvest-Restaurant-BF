@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | New Harvest</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">New Harvest</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="contact-container">
+        <h1 id="contact-title">Contact Us</h1>
+        <div class="info-container">
+            <div>
+                <div>
+                    <h2>Get In Touch</h2>
+                    <p>Phone: (203) 632-8012</p>
+                    <p>Email: newharvestrestaurant@gmail.com</p>
+                </div>
+                <div>
+                    <h2>Location</h2>
+                    <p>57 S Main St, Beacon Falls, CT 06403</p>
+                </div>
+            </div>
+            <div>
+                <h2>Hours</h2>
+                <p>Monday: 3:30 - 11PM</p>
+                <p>Tuesday: 3:30 - 11PM</p>
+                <p>Wednesday: 3:30 - 11PM</p>
+                <p>Thursday: 3:30 - 11PM</p>
+                <p>Friday: 3:30 - 11PM</p>
+                <p>Saturday: 3:30 - 11PM</p>
+                <p>Sunday: 12:30 - 11PM</p>
+            </div>
+        </div>
+        <div class="contact-item">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11963.778349041395!2d-73.060631!3d41.440424!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd3ecdc4a7ecfd774!2sNew%20Harvest%20Restaurant!5e0!3m2!1sen!2sus!4v1654086616795!5m2!1sen!2sus"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contact-item">
+            <form>
+                <div class="input-container">
+                    <div class="input-item">
+                        <p>
+                            <label for="fullname">Full Name <span style="color:red">*</span></label>
+                            <br>
+                            <input id="fullname" type="text" placeholder="Full Name" name="fullname" required>
+                        </p>
+                        <p>
+                            <label for="email">Email <span style="color:red">*</span></label>
+                            <br>
+                            <input id="email" type="text" placeholder="Email" name="email" required>
+                        </p>
+                    </div>
+                    <div class="input-item">
+                        <p>
+                            <label for="message">Message <span style="color:red">*</span></label>
+                            <br>
+                            <textarea id="message" name="message" placeholder="We are excited to hear from you!"
+                                rows="5" cols="25" required></textarea>
+                        </p>
+                    </div>
+                </div>
+                <div class="submit">
+                    <button>Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
