@@ -10,6 +10,7 @@ div > img{
 }
 
 .site-intro {
+    height: 92vh;
     position: relative;
 }
 
