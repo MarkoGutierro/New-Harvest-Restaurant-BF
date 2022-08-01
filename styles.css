@@ -127,6 +127,7 @@ div > img{
 }
 
 #site-title {
+    display: block;
     position: absolute;
     top: 40%;
     width: 100%;
@@ -134,4 +135,12 @@ div > img{
     color: white;
     font-weight: bolder;
     font-size: 3rem;
+    animation-name: welcome;
+    animation-timing-function: ease-in;
+    animation-duration: 2.5s;
+}
+
+@keyframes welcome {
+    from{opacity: 0}
+    to{opacity: 1}
 }
