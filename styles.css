@@ -131,7 +131,7 @@ div > img{
 #site-title {
     display: block;
     position: absolute;
-    top: 40%;
+    top: 37.5%;
     width: 100%;
     text-align: center;
     color: white;
@@ -178,29 +178,34 @@ div > img{
   @media (min-width: 0px) {
     #site-title {
       font-size: 200%;
+      top: 40%;
     }
   }
   
   @media (min-width: 500px) {
     #site-title {
-      font-size: 250%;
+      font-size: 300%;
+      top: 40%;
     }
   }
   
   @media (min-width: 992px) {
     #site-title {
-      font-size: 300%;
+      font-size: 400%;
+      top: 39%;
     }
   }
   
   @media (min-width: 1200px) {
     #site-title {
       font-size: 500%;
+      top: 37%;
     }
   }
 
   @media (min-width: 1400px) {
     #site-title {
       font-size: 700%;
+      top: 35%;
     }
   }
