@@ -28,6 +28,7 @@ div > img{
 
 .about-text {
     font-size: 1.25rem;
+    font-style: italic;
     color:rgb(233, 233, 233);
     padding: .75rem;
     background-color: black;
@@ -55,6 +56,7 @@ div > img{
 
 .gallery-intro {
     text-align: center;
+    margin: 10px;
 }
 
 .flex-container {
@@ -134,7 +136,7 @@ div > img{
     text-align: center;
     color: white;
     font-weight: bolder;
-    font-size: 3rem;
+    font-size: 1rem;
     animation-name: welcome;
     animation-timing-function: ease-in;
     animation-duration: 1.5s;
@@ -144,3 +146,61 @@ div > img{
     from{opacity: 0}
     to{opacity: 1}
 }
+
+
+/*text on home page that explains restaurant's values*/
+@media (min-width: 30em) {
+    .about-text {
+      font-size: 125%;
+    }
+  }
+  
+  @media (min-width: 40em) {
+    .about-text {
+      font-size: 150%;
+    }
+  }
+  
+  @media (min-width: 50em) {
+    .about-text {
+      font-size: 175%;
+    }
+  }
+  
+  @media (min-width: 60em) {
+    .about-text {
+      font-size: 200%;
+    }
+  }
+
+/*home page title text*/
+
+  @media (min-width: 0px) {
+    #site-title {
+      font-size: 200%;
+    }
+  }
+  
+  @media (min-width: 500px) {
+    #site-title {
+      font-size: 250%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    #site-title {
+      font-size: 300%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    #site-title {
+      font-size: 500%;
+    }
+  }
+
+  @media (min-width: 1400px) {
+    #site-title {
+      font-size: 700%;
+    }
+  }
