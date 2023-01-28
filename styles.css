@@ -39,6 +39,13 @@ div>img {
   color: white;
   border-color: black;
   padding: 10px 20px 10px 20px;
+  transition-duration: 1s;
+}
+
+.hero-btn:hover {
+  background-color: rgb(21, 21, 21);
+  border-color: black;
+  font-size: 25px;
 }
 
 .about-container {
